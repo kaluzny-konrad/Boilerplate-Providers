@@ -39,6 +39,11 @@ This repo is created to show best providers of different services.
 ## Database ORM
 - [Prisma](https://www.prisma.io/nextjs): PostgreSQL, MySQL/MariaDB, SQLite, MongoDB, SQL Server, CockroachDB
     - **ENV**: DATABASE_URL= (from Cloud Provider)
+- [Payload CMS](https://payloadcms.com/): headless CMS and application framework
+    - **ENV**: 
+        - PAYLOAD_SECRET=RANDOM_SECRET_STRING
+        - DATABASE_URI= (from Cloud Provider)
+
 
 ## Auth Solution
 - [NextAuth](https://next-auth.js.org/)
