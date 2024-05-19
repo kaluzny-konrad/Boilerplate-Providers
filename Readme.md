@@ -2,6 +2,12 @@
 
 This repo is created to show best providers of different services.
 
+## Hosting Providers
+- NextJS:
+    - [Vercel](https://vercel.com/)
+- Node Server:
+    - [Render](https://render.com/)
+
 ## Free Database Cloud Providers
 - PostgreSQL:
     - [NEON](https://neon.tech/)
@@ -59,4 +65,15 @@ This repo is created to show best providers of different services.
         - Redirect URI: 
             - <http://localhost:3000/api/auth/callback/google>
             - <https://YOUR_DOMAIN/api/auth/callback/google>
-- 
+
+## Email Service
+- [SendGrid](https://sendgrid.com/)
+    - **ENV**: SENDGRID_API_KEY=
+- [Resend](https://resend.com/)
+    - **ENV**: RESEND_API_KEY=
+
+## Payment Gateway
+- [Stripe](https://stripe.com/)
+    - **ENV**:
+        - STRIPE_SECRET_KEY=
+        - STRIPE_WEBHOOK_SECRET=
