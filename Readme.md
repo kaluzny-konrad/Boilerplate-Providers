@@ -8,15 +8,24 @@ This repo is created to show best providers of different services.
         - **ENV**: DATABASE_URL=
     - [Supabase](https://supabase.com/) (Firebase alternative)
         - **ENV**: DATABASE_URL=
+
 - MongoDB:
     - [MongoDB](https://cloud.mongodb.com/)
         - **ENV**: DATABASE_URL=
+
 - MySQL:
     - [Clever Cloud](https://console.clever-cloud.com/)
         - **ENV**: DATABASE_URL=
+
 - Cloudflare D1:
     - [Cloudflare D1](https://developers.cloudflare.com/d1/platform/pricing/)
         - **ENV**: DATABASE_URL=
+
+- Redis:
+    - [Upstash](https://upstash.com/)
+        - **ENV**:
+            - REDIS_URL=
+            - REDIS_SECRET=
 
 ## Paid Database Cloud Providers
 
@@ -30,6 +39,14 @@ This repo is created to show best providers of different services.
     - **ENV**: NEXTAUTH_SECRET= with random string
 - Auth0:
 - Kinde:
+- Clerk:
+    - **ENV**:
+        - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+        - CLERK_SECRET_KEY=
+        - NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+        - NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+        - NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+        - NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
 ## Auth API
 - [Google OAuth Client](https://console.cloud.google.com/apis/credentials/oauthclient)
