@@ -82,3 +82,14 @@ This repo is created to show best providers of different services.
     - **ENV**:
         - STRIPE_SECRET_KEY=
         - STRIPE_WEBHOOK_SECRET=
+
+# AI Services
+- [OpenAI](https://openai.com/): for answering questions
+    - **ENV**: OPENAI_API_KEY=
+- [Pinecone](https://www.pinecone.io/): for long-term vector storage
+    - **ENV**: PINECONE_API_KEY=
+
+
+# API Provider
+- [RapidAPI](https://rapidapi.com/)
+    - weatherAPI https://rapidapi.com/weatherapi/api/weatherapi-com
