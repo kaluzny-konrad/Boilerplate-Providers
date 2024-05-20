@@ -82,6 +82,9 @@ This repo is created to show best providers of different services.
     - **ENV**:
         - STRIPE_SECRET_KEY=
         - STRIPE_WEBHOOK_SECRET=
+    - **Local Development**:
+        - `stripe login`
+        - `stripe listen --forward-to localhost:3000/api/webhooks`
 
 # AI Services
 - [OpenAI](https://openai.com/): for answering questions
